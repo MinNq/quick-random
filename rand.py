@@ -12,6 +12,9 @@ def genData(N, d, dist, **arg):
 	  corresponding parameters. Read NumPy documentation
 	  (https://docs.scipy.org/doc/numpy-1.15.1/reference/routines.random.html)
 	  to learn about possible options.
+
+	Return:
+	- out: Drawn samples from desired distribution.
 	'''
 
 	out = getattr(rng, dist)(**arg, size = (N,d))
