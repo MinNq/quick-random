@@ -1,6 +1,23 @@
 # quick-random
 
-A universal function for numpy.random
+We introduce `genData()` - a universal function for `numpy.random`. Instead of specific functions for
+individual distributions, you can now indicate the distribution name and corresponding parameters inside
+a single `genData()`.
+
+## Syntax
+
+The function is called as follow:
+
+```
+genData(N, d, dist, **arg)
+```
+
+Parameters:
+- `N`: int. Sample size.
+- `d`: int. Vector length.
+- `dist` and `**arg`: Distribution name (string) and
+  corresponding parameters. Read our docstrings to
+  learn possible options.
 
 ## Examples
 
