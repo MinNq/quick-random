@@ -16,7 +16,7 @@ Parameters:
 - `N`: int. Sample size.
 - `d`: int. Vector length.
 - `dist` and `**arg`: Distribution name (string) and
-  corresponding parameters. Read our docstrings to
+  corresponding parameters. Read [NumPy documentation] to
   learn possible options.
 
 ## Examples
@@ -33,5 +33,6 @@ array([[1, 1, 1],
 array([[0.38453819, 0.55604113, 0.40391136],
        [0.66146869, 0.5959965 , 0.49430322],
        [0.16217435, 0.42316647, 0.51540831]])
-
 ```
+
+[NumPy documentation]: https://docs.scipy.org/doc/numpy-1.15.1/reference/routines.random.html
