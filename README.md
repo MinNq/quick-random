@@ -17,7 +17,7 @@ Parameters:
 - `d`: int. Vector length.
 - `dist` and `**arg`: Distribution name (string) and
   corresponding parameters. Read [NumPy documentation] to
-  learn possible options.
+  learn about possible options.
 
 ## Examples
 
